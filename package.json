@@ -3,18 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "@mdx-js/mdx": "^1.5.7",
+    "@next/mdx": "^9.3.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "react": "^16.13.0",
+    "latest-version": "^5.1.0",
+    "node-sass": "^4.13.1",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-icons": "^3.9.0",
+    "react-scripts": "3.4.0",
+    "storybook-addon-preview": "^1.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +39,43 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/generator": "^7.8.8",
+    "@babel/parser": "^7.8.8",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "@mdx-js/loader": "^1.5.7",
+    "@storybook-addons/docs": "^1.6.0",
+    "@storybook/addon-actions": "^5.3.17",
+    "@storybook/addon-backgrounds": "^5.3.17",
+    "@storybook/addon-docs": "^5.3.17",
+    "@storybook/addon-info": "^5.3.17",
+    "@storybook/addon-knobs": "^5.3.17",
+    "@storybook/addon-links": "^5.3.17",
+    "@storybook/addon-notes": "^5.3.17",
+    "@storybook/addon-storysource": "^5.3.17",
+    "@storybook/addons": "^5.3.17",
+    "@storybook/preset-create-react-app": "^2.0.0",
+    "@storybook/preset-typescript": "^2.1.0",
+    "@storybook/react": "^5.3.17",
+    "@storybook/theming": "^5.3.17",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-react-docgen": "^4.1.0",
+    "css-loader": "^3.4.2",
+    "fork-ts-checker-webpack-plugin": "^4.1.0",
+    "mdx-loader": "^3.0.2",
+    "raw-loader": "^4.0.0",
+    "react": "^16.13.0",
+    "react-docgen": "^5.3.0",
+    "react-docgen-typescript": "^1.16.3",
+    "react-docgen-typescript-loader": "^3.7.1",
+    "react-is": "^16.13.0",
+    "spectacle-mdx-loader": "^0.1.1",
+    "storybook-addon-styles": "^1.1.0",
+    "storybook-readme": "^5.0.8",
+    "ts-loader": "^6.2.1",
+    "webpack": "^4.28.4"
   }
 }

@@ -1,0 +1,346 @@
+//@import "../../scss/abstracts/variables";
+html{
+    /* height: 100%; */
+  }
+  #root{
+    /* height: 100%; */
+  }
+  body{
+    width: 100%;
+    margin: 0;
+    height: 100% !important;
+    background-color: #fafafa;
+  }
+  .loginFormWrapper{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 320px;
+    width: 419px;
+    max-width: 419px;
+    max-height: 100%;
+    border-radius: 5px;
+    border: 1px solid #e8e9ef;
+    background-color: #ffffff;
+    margin-top: 98px;
+    box-shadow: 1px 1px 20px 0px rgba(0,0,0, 0.16);
+  }
+  .companyLogoWrapper{
+    text-align: center;
+    display: flex;
+  }
+  .headerContainWrapper{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+  .formContainWrapper{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+
+  }
+  .companyNameWrapper{
+    margin-top: 20px;
+    margin-left: 8px;
+  }
+  .companyName{
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2a2b30;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .welcomeMessage{
+    font-family: $fontFamilyBold;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 8px;
+    //color: $textColor;
+  }
+  .loginMessage{
+    font-family: $fontFamilyBook;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    //color: $textColor;
+  }
+  .welcomeWrapper{
+    margin-bottom: 18px;
+    margin-top: 35px;
+  }
+  .inputWrapper{
+   padding-top: 37px;
+  }
+  .inputWrapper input{
+    padding-top: 11px !important;
+    padding-bottom: 9px !important;
+  }
+  .inputTitle{
+    color: #828d93;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .passwordWrapper{
+    margin-top: 22px;
+  }
+  .inputBox{
+    font-family: $fontFamilyBook;
+    width: 300px;
+    height: 39px;
+    border-radius: 3px;
+    border: solid 1px #afb2b3;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    //color: $textColor;
+  }
+  .forgotPasswordWrapper{
+    margin-top: 17px;
+      margin-bottom: 56px;
+  }
+   .resetPagePasswordWrapper{
+    margin-top: 17px;
+      margin-bottom: 60px;
+  }
+  .forgotPassword{
+    font-family: $fontFamilyBook;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    //color: $selectedDialogTypeColor;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #3f51b5;
+  }
+  .forgotPassword:hover{
+    text-decoration: underline;
+  }
+  .forgotPasswordTitleWrapper{
+    margin-top: 34px;
+    margin-bottom: 18px;
+  }
+  .loginButton{
+    width: 300px;
+    height: 36px;
+    border-radius: 3px;
+    //background-color: $selectedDialogTypeColor;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+    font-family: $fontFamilyBook;
+  }
+  .buttonWrapper{
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  .forgotEmailWrapper{
+    margin-bottom: 6px;
+  }
+  .forgotEmailWrapper input{
+    padding-top: 11px !important;
+    padding-bottom: 9px !important;
+  }
+
+  .resetPasswordFormWrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 421px;
+    min-height: 432px;
+    height: 432px;
+    max-height: 432px;
+    border-radius: 5px;
+    border: 1px solid #e8e9ef;
+    background-color: #ffffff;
+    margin-top: 98px;
+  }
+  .confirmPasswordWrapper{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .resetPasswordTitle{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 38px;
+  }
+
+  .recoveryLinkFormWrapper{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 420px;
+    width: 420px;
+    max-width: 420px;
+    height:362px;
+    border-radius: 5px;
+    border: 1px solid #e8e9ef;
+    background-color: #ffffff;
+    margin-top: 98px;
+  }
+  .loginAgainFormWrapper{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 320px;
+    width: 422px;
+    max-width: 422px;
+    height: 577px;
+    border-radius: 5px;
+    border: 1px solid #e8e9ef;
+    background-color: #ffffff;
+    margin-top: 98px;
+  }
+  .logoContainer{
+    height:85px;
+    margin-left: -20px;
+  }
+
+  .logoImgContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  // This is just to center the spinner
+
+html, body { height: 100%; }
+
+// body {
+//    display: flex;
+//    align-items: center;
+//    justify-content: center;
+// }
+
+// Here is where the magic happens
+
+//$offset: 187;
+//$duration: 1.4s;
+
+.spinner {
+  //animation: rotator $duration linear infinite;
+}
+
+@keyframes rotator {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(270deg); }
+}
+
+.path {
+  //stroke-dasharray: $offset;
+  stroke-dashoffset: 0;
+  stroke: #ffffff;
+  transform-origin: center;
+  //animation:    dash $duration ease-in-out infinite,
+}
+
+
+//@keyframes dash {
+// 0% { stroke-dashoffset: $offset; }
+// 50% {
+//   stroke-dashoffset: $offset/4;
+//   transform:rotate(135deg);
+// }
+// 100% {
+//   stroke-dashoffset: $offset;
+//   transform:rotate(450deg);
+// }
+//}
+
+  .forgotPasswordFormWrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 418px;
+    border-radius: 5px;
+    border: 1px solid #e8e9ef;
+    background-color: #ffffff;
+    margin-top: 98px;
+    box-shadow: 1px 1px 20px 0px rgba(0,0,0, 0.16);
+  }
+  .forgotPasswordMainTitle{
+    font-family: $fontFamilyBold;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 18px;
+    //color:$textColor;
+  }
+    .forgotPasswordMessage{
+    font-family: $fontFamilyBook;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: 20px;
+    //margin-bottom: 37px;
+    //  color: $textColor;
+  }
+    .componentWrapper{
+      margin-bottom: 59px;
+      margin-top: 37px;
+    }
+    .recoveryButtonWrapper{
+      margin-top: 20px;
+      margin-bottom:60px;
+    }
+  @media screen and (max-width: 450px){
+      body{
+        width:unset;
+    margin: unset;
+    height: unset !important;
+      }
+     .loginFormWrapper{
+      margin-left: 15px;
+   margin-right: 15px;
+   min-width: auto;
+   width: 93.11111111111111VW;
+    }
+    .formContainWrapper{
+    margin-left: 13.333333333333334VW;
+    margin-right: 13.333333333333334VW;
+
+  }
+  }
