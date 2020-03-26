@@ -46,7 +46,7 @@ export const Long = () => (<Button disabled={boolean("Disabled", false)}
 
 export const Short = () => (<Button  disabled={boolean('disable',false)} 
                                           type={select('Type',options,defaultValue)}
-                                          fullwidth={boolean('fullwidth',short_button_fullwidth_default)}
+                                          fullwidth={boolean('fullwidth',short_button_fullwidth_default)  }
                                           handleClick={action('Short button clicked')}
                                           handleInputFocus={action('onFocus')}
                                           handleInputBlur={action('onBlur')}
