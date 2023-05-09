@@ -14,7 +14,7 @@
     "node-sass": "^4.13.1",
     "react-dom": "^16.13.0",
     "react-icons": "^3.9.0",
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.1",
     "storybook-addon-preview": "^1.0.3"
   },
   "scripts": {
@@ -46,7 +46,7 @@
     "@babel/parser": "^7.8.8",
     "@babel/preset-env": "^7.8.7",
     "@babel/preset-react": "^7.8.3",
-    "@mdx-js/loader": "^1.5.7",
+    "@mdx-js/loader": "^1.6.22",
     "@storybook-addons/docs": "^1.6.0",
     "@storybook/addon-actions": "^5.3.17",
     "@storybook/addon-backgrounds": "^5.3.17",
@@ -59,7 +59,7 @@
     "@storybook/addons": "^5.3.17",
     "@storybook/preset-create-react-app": "^2.0.0",
     "@storybook/preset-typescript": "^2.1.0",
-    "@storybook/react": "^5.3.17",
+    "@storybook/react": "^7.0.9",
     "@storybook/theming": "^5.3.17",
     "babel-loader": "^8.0.6",
     "babel-plugin-react-docgen": "^4.1.0",
